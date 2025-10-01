@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BluePrinter - Figma to Code Generator",
-  description: "Transform your Figma designs into working code instantly",
+  title: "TinkerBot Agency - Premier AI Agent Recruitment",
+  description: "Hire specialized AI agents and complete ecosystems for your organization. SilentSentry, TinkerBot, Analytics Pro and more.",
 };
 
 export default function RootLayout({
