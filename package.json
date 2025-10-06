@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+<<<<<<< HEAD
     "type-check": "tsc --noEmit",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx lib/db/migrate.ts",
@@ -19,16 +20,32 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "drizzle-orm": "^0.44.5",
+=======
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.0.2",
+    "@vercel/postgres": "^0.5.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "drizzle-orm": "^0.29.0",
+>>>>>>> 824e81a1751fdc9495f8be06788ef1ff57e434fd
     "lucide-react": "^0.544.0",
     "next": "15.5.4",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+<<<<<<< HEAD
     "stripe": "^19.0.0",
+=======
+>>>>>>> 824e81a1751fdc9495f8be06788ef1ff57e434fd
     "tailwind-merge": "^2.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+<<<<<<< HEAD
     "@netlify/plugin-nextjs": "^5.13.4",
+=======
+>>>>>>> 824e81a1751fdc9495f8be06788ef1ff57e434fd
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
@@ -37,7 +54,10 @@
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
     "tailwindcss": "^4",
+<<<<<<< HEAD
     "tsx": "^4.20.6",
+=======
+>>>>>>> 824e81a1751fdc9495f8be06788ef1ff57e434fd
     "typescript": "^5"
   }
 }

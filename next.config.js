@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   compress: true,
@@ -26,3 +27,12 @@ const nextConfig = {
 
 module.exports = nextConfig;
 
+=======
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  compress: true,
+};
+
+module.exports = nextConfig;
+
+>>>>>>> 824e81a1751fdc9495f8be06788ef1ff57e434fd

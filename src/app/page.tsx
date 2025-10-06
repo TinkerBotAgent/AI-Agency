@@ -615,4 +615,8 @@ export default function Home() {
       </footer>
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 824e81a1751fdc9495f8be06788ef1ff57e434fd
