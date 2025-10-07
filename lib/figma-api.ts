@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 // Figma API Integration for BluePrinter
 export interface FigmaNode {
   id: string;
   name: string;
   type: string;
-  children?: FigmaNode[];
+  characters?: string;
   absoluteBoundingBox?: {
     x: number;
     y: number;
@@ -17,91 +16,19 @@ export interface FigmaNode {
       r: number;
       g: number;
       b: number;
-      a: number;
     };
   }>;
-  characters?: string;
   style?: {
-    fontFamily: string;
-    fontSize: number;
-    fontWeight: number;
+    fontSize?: number;
+    fontWeight?: number;
   };
-}
-
-export class FigmaAPI {
-  private accessToken: string;
-  private baseURL = 'https://api.figma.com/v1';
-
-  constructor(accessToken: string) {
-    this.accessToken = accessToken;
-  }
-
-  async getFile(fileKey: string): Promise<FigmaNode> {
-    const response = await fetch(`${this.baseURL}/files/${fileKey}`, {
-      headers: {
-        'X-Figma-Token': this.accessToken,
-      },
-    });
-
-    if (!response.ok) {
-      throw new Error(`Figma API error: ${response.statusText}`);
-    }
-
-    const data = await response.json();
-    return data.document;
-  }
-
-  async getImages(fileKey: string, nodeIds: string[]): Promise<Record<string, string>> {
-    const response = await fetch(`${this.baseURL}/images/${fileKey}`, {
-      method: 'POST',
-      headers: {
-        'X-Figma-Token': this.accessToken,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        ids: nodeIds,
-        format: 'png',
-        scale: 2,
-      }),
-    });
-
-    if (!response.ok) {
-      throw new Error(`Figma Images API error: ${response.statusText}`);
-    }
-
-    const data = await response.json();
-    return data.images;
-  }
-}
-
-=======
-// Figma API Integration for BluePrinter
-export interface FigmaNode {
-  id: string;
-  name: string;
-  type: string;
   children?: FigmaNode[];
-  absoluteBoundingBox?: {
-    x: number;
-    y: number;
-    width: number;
-    height: number;
-  };
-  fills?: Array<{
-    type: string;
-    color?: {
-      r: number;
-      g: number;
-      b: number;
-      a: number;
-    };
-  }>;
-  characters?: string;
-  style?: {
-    fontFamily: string;
-    fontSize: number;
-    fontWeight: number;
-  };
+}
+
+export interface FigmaFile {
+  document: FigmaNode;
+  components: Record<string, FigmaNode>;
+  styles: Record<string, any>;
 }
 
 export class FigmaAPI {
@@ -112,8 +39,22 @@ export class FigmaAPI {
     this.accessToken = accessToken;
   }
 
-  async getFile(fileKey: string): Promise<FigmaNode> {
-    const response = await fetch(`${this.baseURL}/files/${fileKey}`, {
+  async getFile(fileId: string): Promise<FigmaFile> {
+    const response = await fetch(`${this.baseURL}/files/${fileId}`, {
+      headers: {
+        'X-Figma-Token': this.accessToken,
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error(`Figma API error: ${response.statusText}`);
+    }
+
+    return response.json();
+  }
+
+  async getNode(fileId: string, nodeId: string): Promise<FigmaNode> {
+    const response = await fetch(`${this.baseURL}/files/${fileId}/nodes?ids=${nodeId}`, {
       headers: {
         'X-Figma-Token': this.accessToken,
       },
@@ -124,29 +65,11 @@ export class FigmaAPI {
     }
 
     const data = await response.json();
-    return data.document;
+    return data.nodes[nodeId].document;
   }
 
-  async getImages(fileKey: string, nodeIds: string[]): Promise<Record<string, string>> {
-    const response = await fetch(`${this.baseURL}/images/${fileKey}`, {
-      method: 'POST',
-      headers: {
-        'X-Figma-Token': this.accessToken,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        ids: nodeIds,
-        format: 'png',
-        scale: 2,
-      }),
-    });
-
-    if (!response.ok) {
-      throw new Error(`Figma Images API error: ${response.statusText}`);
-    }
-
-    const data = await response.json();
-    return data.images;
+  extractFileId(url: string): string | null {
+    const match = url.match(/figma\.com\/file\/([a-zA-Z0-9]+)/);
+    return match ? match[1] : null;
   }
 }
->>>>>>> 824e81a1751fdc9495f8be06788ef1ff57e434fd

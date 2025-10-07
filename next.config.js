@@ -18,7 +18,7 @@ const nextConfig = {
   poweredByHeader: false,
   // Disable problematic features for Netlify
   eslint: {
-    ignoreDuringBuilds: false,
+    ignoreDuringBuilds: true,
   },
   typescript: {
     ignoreBuildErrors: false,

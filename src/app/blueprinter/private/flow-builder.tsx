@@ -227,14 +227,14 @@ export default function FlowBuilder() {
           {nodes.map(node => {
             const nodeType = nodeTypes.find(t => t.id === node.type);
             const isSelected = selectedNode === node.id;
-            const isConnecting = isConnecting && connectionStart === node.id;
+            const isConnectingToThis = isConnecting && connectionStart === node.id;
 
             return (
               <div
                 key={node.id}
                 className={`absolute w-32 h-16 bg-white border-2 rounded-lg shadow-lg cursor-pointer transition-all ${
                   isSelected ? 'border-blue-500 shadow-blue-200' : 'border-gray-300'
-                } ${isConnecting ? 'border-green-500' : ''}`}
+                } ${isConnectingToThis ? 'border-green-500' : ''}`}
                 style={{ left: node.x, top: node.y, zIndex: 2 }}
                 onMouseDown={(e) => handleNodeDrag(node.id, e)}
                 onClick={() => handleNodeClick(node.id)}
