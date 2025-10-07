@@ -1,6 +1,6 @@
 [build]
   command = "npm install && npm run build"
-  publish = ".next"
+  publish = "out"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
@@ -18,11 +18,7 @@
   # Ensure proper permissions
   CI = "true"
 
-# SPA routing - handle all routes with index.html
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# Static site routing - Next.js handles routing
 
 # Headers for security and performance
 [[headers]]

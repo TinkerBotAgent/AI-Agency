@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import EcosystemLibrary from './ecosystems';
 import FlowBuilder from './flow-builder';
 
 export default function BluePrinterPrivate() {
@@ -170,8 +169,6 @@ export default function BluePrinterPrivate() {
             </p>
           </div>
         </div>
-      ) : activeView === 'ecosystems' ? (
-        <EcosystemLibrary />
       ) : (
         <FlowBuilder />
       )}

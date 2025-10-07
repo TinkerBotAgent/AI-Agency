@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   compress: true,
-  // Netlify configuration
-  trailingSlash: false,
+  // Static export for Netlify
+  output: 'export',
+  trailingSlash: true,
   // Production optimizations (swcMinify is default in Next.js 15)
   experimental: {
     optimizePackageImports: ['lucide-react'],
