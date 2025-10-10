@@ -357,11 +357,11 @@ export default function Home() {
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-300">Monthly Rate</span>
-                      <span className="text-cyan-400 font-medium">$1,200</span>
+                      <span className="text-cyan-400 font-medium">$500</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-300">Setup Fee</span>
-                      <span className="text-cyan-400 font-medium">$2,500</span>
+                      <span className="text-cyan-400 font-medium">$1,000</span>
                     </div>
                     <button className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white py-3 rounded-xl font-bold transition-all duration-200">
                       Request Interview
@@ -424,7 +424,7 @@ export default function Home() {
                 <div className="text-sm text-gray-400">• Recovery Specialist</div>
               </div>
               <button className="w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-black py-3 rounded-xl font-bold transition-all duration-200">
-                Hire Team - $8,500/mo
+                Hire Team - Starting at $1,500/mo*
               </button>
             </div>
 
@@ -445,7 +445,7 @@ export default function Home() {
                 <div className="text-sm text-gray-400">• QA Specialist</div>
               </div>
               <button className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white py-3 rounded-xl font-bold transition-all duration-200">
-                Hire Team - $6,200/mo
+                Hire Team - Starting at $1,500/mo*
               </button>
             </div>
 
@@ -466,7 +466,141 @@ export default function Home() {
                 <div className="text-sm text-gray-400">• Report Specialist</div>
               </div>
               <button className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white py-3 rounded-xl font-bold transition-all duration-200">
-                Hire Team - $4,800/mo
+                Hire Team - Starting at $1,500/mo*
+              </button>
+            </div>
+
+             <div className="bg-gray-800/50 backdrop-blur-sm rounded-3xl p-8 border border-gray-700 hover:border-green-500/50 transition-all duration-500 group hover:shadow-2xl hover:shadow-green-500/10 transform hover:-translate-y-2">
+              <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-white">Sales & Marketing Team</h3>
+              <p className="text-gray-300 leading-relaxed text-lg mb-6">
+                Cutting edge marketing team and sales support to help scale up your company's revenue.
+              </p>
+              <div className="space-y-2 mb-6">
+                <div className="text-sm text-gray-400">• LeadGenBot (Lead)</div>
+                <div className="text-sm text-gray-400">• Marketing Scout</div>
+                <div className="text-sm text-gray-400">• CommsBot</div>
+                <div className="text-sm text-gray-400">• CRM Bot</div>
+                <div className="text-sm text-gray-400">• TrendTrackerBot</div>
+              </div>
+              <button className="w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-black py-3 rounded-xl font-bold transition-all duration-200">
+                Hire Team - Starting at $1,500/mo*
+              </button>
+            </div>
+
+            <div className="bg-gray-800/50 backdrop-blur-sm rounded-3xl p-8 border border-gray-700 hover:border-green-500/50 transition-all duration-500 group hover:shadow-2xl hover:shadow-green-500/10 transform hover:-translate-y-2">
+              <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-white">HR Team</h3>
+              <p className="text-gray-300 leading-relaxed text-lg mb-6">
+                Find and retain the best talent to help your company grow.
+              </p>
+              <div className="space-y-2 mb-6">
+                <div className="text-sm text-gray-400">• HR Coordinator (Lead)</div>
+                <div className="text-sm text-gray-400">• Recruiter</div>
+                <div className="text-sm text-gray-400">• Onboarding</div>
+                <div className="text-sm text-gray-400">• Trainer</div>
+                <div className="text-sm text-gray-400">• Benefits</div>
+                <div className="text-sm text-gray-400">• Talent Retention</div>
+              </div>
+              <button className="w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-black py-3 rounded-xl font-bold transition-all duration-200">
+                Hire Team - Starting at $1,500/mo*
+              </button>
+            </div>
+
+             <div className="bg-gray-800/50 backdrop-blur-sm rounded-3xl p-8 border border-gray-700 hover:border-cyan-500/50 transition-all duration-500 group hover:shadow-2xl hover:shadow-cyan-500/10 transform hover:-translate-y-2">
+              <div className="w-16 h-16 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-white">Content Management Team</h3>
+              <p className="text-gray-300 leading-relaxed text-lg mb-6">
+                Engage online audiences with top quality content for blogs, social media and press releases.
+              </p>
+              <div className="space-y-2 mb-6">
+                <div className="text-sm text-gray-400">• EditorialBot (Lead)</div>
+                <div className="text-sm text-gray-400">•ContentBot</div>
+                <div className="text-sm text-gray-400">• SEOBot</div>
+                <div className="text-sm text-gray-400">• SocialBot</div>
+                <div className="text-sm text-gray-400">• PRBot</div>
+              </div>
+              <button className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white py-3 rounded-xl font-bold transition-all duration-200">
+                Hire Team - Starting at $1,500/mo*
+              </button>
+            </div>
+
+            <div className="bg-gray-800/50 backdrop-blur-sm rounded-3xl p-8 border border-gray-700 hover:border-green-500/50 transition-all duration-500 group hover:shadow-2xl hover:shadow-green-500/10 transform hover:-translate-y-2">
+              <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-white">Administrative Team</h3>
+              <p className="text-gray-300 leading-relaxed text-lg mb-6">
+                Administrative automation and personal assistants for your entire workforce.
+              </p>
+              <div className="space-y-2 mb-6">
+                <div className="text-sm text-gray-400">• ClericalPro (Lead)</div>
+                <div className="text-sm text-gray-400">• SecretarialBot</div>
+                <div className="text-sm text-gray-400">• TranslationAssist</div>
+                <div className="text-sm text-gray-400">• SummaryBot</div>
+                <div className="text-sm text-gray-400">• IntelReporter</div>
+              </div>
+              <button className="w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-black py-3 rounded-xl font-bold transition-all duration-200">
+                Hire Team - Starting at $1,500/mo*
+              </button>
+            </div>
+
+            <div className="bg-gray-800/50 backdrop-blur-sm rounded-3xl p-8 border border-gray-700 hover:border-green-500/50 transition-all duration-500 group hover:shadow-2xl hover:shadow-green-500/10 transform hover:-translate-y-2">
+              <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-white">Supply Chain Staff</h3>
+              <p className="text-gray-300 leading-relaxed text-lg mb-6">
+                Inventory management, logistics, quality control and systems mainenance specialists to regulate product-based companies.
+              </p>
+              <div className="space-y-2 mb-6">
+                <div className="text-sm text-gray-400">• Production Coordinator (Lead)</div>
+                <div className="text-sm text-gray-400">• IntelligentInventory</div>
+                <div className="text-sm text-gray-400">• ProcurementBot</div>
+                <div className="text-sm text-gray-400">• LogisticsPro</div>
+                <div className="text-sm text-gray-400">• QualityAssuranceBot</div>
+                <div className="text-sm text-gray-400">• SysMaintenanceBot</div>
+              </div>
+              <button className="w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-black py-3 rounded-xl font-bold transition-all duration-200">
+                Hire Team - Starting at $1,500/mo*
+              </button>
+            </div>
+
+            <div className="bg-gray-800/50 backdrop-blur-sm rounded-3xl p-8 border border-gray-700 hover:border-cyan-500/50 transition-all duration-500 group hover:shadow-2xl hover:shadow-cyan-500/10 transform hover:-translate-y-2">
+              <div className="w-16 h-16 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-white">Finance & Accounting Team</h3>
+              <p className="text-gray-300 leading-relaxed text-lg mb-6">
+                Protects and manages your company's assets with accurate reports, AR/AP resolutions and predictive analyses*.
+              </p>
+              <div className="space-y-2 mb-6">
+                <div className="text-sm text-gray-400">• FinTechBot (Lead)</div>
+                <div className="text-sm text-gray-400">• PayrollBot</div>
+                <div className="text-sm text-gray-400">• BudgetTracker</div>
+                <div className="text-sm text-gray-400">• SysAuditBot</div>
+                <div className="text-sm text-gray-400">• TaxSpecialist</div>
+              </div>
+              <button className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white py-3 rounded-xl font-bold transition-all duration-200">
+                Hire Team - Starting at $1,500/mo*
               </button>
             </div>
           </div>
@@ -478,10 +612,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              We Live By Our Own Adaptive Agentic AI
+              We Believe In Our System So Much, We Operate With Our Own Adaptive Agentic AI Ecosystems
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto font-light">
-              TinkerBot Agency operates entirely on our own Adaptive Agentic AI ecosystem
+              TinkerBot Agency uses the exact same systems we provide for our clients!
             </p>
           </div>
 
@@ -489,12 +623,14 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="text-3xl font-bold text-white mb-6">
-                  Zero Human Overhead
+                  Increased Productivity and Accuracy Help Us Run More Efficiently
                 </h3>
                 <p className="text-lg text-gray-300 mb-8 leading-relaxed">
                   Our entire company operates through our <span className="text-green-400 font-semibold">Adaptive Agentic AI</span> ecosystem. 
                   Customer support, project management, security monitoring, analytics, and internal communications 
-                  are all handled by intelligent agents that learn and adapt to our needs.
+                  are all handled by intelligent agents that learn and adapt to our needs. Our live team members report
+                  high levels of job satisfaction since they have on demand smart support, retain the more engaging parts
+                  of their workloads and experience a significant reduction in errors and customer service issues.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-center">
