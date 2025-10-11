@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-export default function Home() 
+export default function Home() {
   const [activePackage, setActivePackage] = useState('executive');
 
   return (
@@ -20,7 +20,6 @@ export default function Home()
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-8">
-                <a href="#agents" className="text-gray-300 hover:text-green-400 px-3 py-2 text-sm font-medium transition-colors">AI Agents</a>
                 <a href="#ecosystem" className="text-gray-300 hover:text-green-400 px-3 py-2 text-sm font-medium transition-colors">Ecosystems</a>
                 <a href="#proof" className="text-gray-300 hover:text-green-400 px-3 py-2 text-sm font-medium transition-colors">Case Studies</a>
                 <a href="#packages" className="text-gray-300 hover:text-green-400 px-3 py-2 text-sm font-medium transition-colors">Get Started</a>
@@ -184,7 +183,6 @@ export default function Home()
               </button>
             </div>
             
-            {/* === NEW SVG FOR SALES & MARKETING === */}
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-3xl p-8 border border-gray-700 hover:border-green-500/50 transition-all duration-500 group hover:shadow-2xl hover:shadow-green-500/10 transform hover:-translate-y-2">
               <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -207,7 +205,6 @@ export default function Home()
               </button>
             </div>
 
-            {/* === NEW SVG FOR HR TEAM === */}
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-3xl p-8 border border-gray-700 hover:border-purple-500/50 transition-all duration-500 group hover:shadow-2xl hover:shadow-purple-500/10 transform hover:-translate-y-2">
               <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -231,8 +228,7 @@ export default function Home()
               </button>
             </div>
             
-            {/* === NEW SVG FOR CONTENT TEAM === */}
-             <div className="bg-gray-800/50 backdrop-blur-sm rounded-3xl p-8 border border-gray-700 hover:border-cyan-500/50 transition-all duration-500 group hover:shadow-2xl hover:shadow-cyan-500/10 transform hover:-translate-y-2">
+            <div className="bg-gray-800/50 backdrop-blur-sm rounded-3xl p-8 border border-gray-700 hover:border-cyan-500/50 transition-all duration-500 group hover:shadow-2xl hover:shadow-cyan-500/10 transform hover:-translate-y-2">
               <div className="w-16 h-16 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
@@ -254,7 +250,6 @@ export default function Home()
               </button>
             </div>
 
-            {/* === NEW SVG FOR ADMIN TEAM === */}
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-3xl p-8 border border-gray-700 hover:border-green-500/50 transition-all duration-500 group hover:shadow-2xl hover:shadow-green-500/10 transform hover:-translate-y-2">
               <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -277,12 +272,10 @@ export default function Home()
               </button>
             </div>
 
-            {/* === NEW SVG FOR SUPPLY CHAIN === */}
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-3xl p-8 border border-gray-700 hover:border-purple-500/50 transition-all duration-500 group hover:shadow-2xl hover:shadow-purple-500/10 transform hover:-translate-y-2">
               <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10l2 2h8a1 1 0 001-1z"></path>
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10l2 2h8a1 1 0 001-1z"></path>
                 </svg>
               </div>
@@ -492,7 +485,6 @@ export default function Home()
                 <div>
                   <div className="flex items-center mb-6">
                     <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mr-4">
-                      {/* === NEW SVG FOR BASIC === */}
                       <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
                       </svg>
@@ -577,7 +569,6 @@ export default function Home()
                 <div>
                   <div className="flex items-center mb-6">
                     <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mr-4">
-                      {/* === NEW SVG FOR ACCELERATOR === */}
                       <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path>
                       </svg>
@@ -662,7 +653,6 @@ export default function Home()
                 <div>
                   <div className="flex items-center mb-6">
                     <div className="w-16 h-16 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl flex items-center justify-center mr-4">
-                      {/* === NEW SVG FOR EXECUTIVE === */}
                       <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 3v4M19 3v4M3 10h18M5 13h14M5 17h14M12 7a2 2 0 100-4 2 2 0 000 4z"></path>
                       </svg>
