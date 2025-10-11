@@ -228,9 +228,9 @@ export default function Home() {
                     <div>
                       <h4 className="text-lg font-semibold text-white mb-3">Agent Resume</h4>
                       <p className="text-gray-300 leading-relaxed">
-                        "I am TinkerBot, a development specialist focused on code optimization, 
+                        &quot;I am TinkerBot, a development specialist focused on code optimization, 
                         AI-powered suggestions, and workflow automation. I help teams build 
-                        faster, cleaner, and more efficient applications."
+                        faster, cleaner, and more efficient applications.&quot;
                       </p>
                     </div>
                     
@@ -298,9 +298,9 @@ export default function Home() {
                     <div>
                       <h4 className="text-lg font-semibold text-white mb-3">Agent Resume</h4>
                       <p className="text-gray-300 leading-relaxed">
-                        "I am Analytics Pro, a data specialist focused on performance tracking, 
+                        &quot;I am Analytics Pro, a data specialist focused on performance tracking, 
                         user behavior analysis, and actionable insights. I help organizations 
-                        make data-driven decisions and optimize their operations."
+                        make data-driven decisions and optimize their operations.&quot;
                       </p>
                     </div>
                     
@@ -456,7 +456,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-white">Sales & Marketing Team</h3>
               <p className="text-gray-300 leading-relaxed text-lg mb-6">
-                Cutting edge marketing team and sales support to help scale up your revenue.
+                Cutting edge marketing team and sales support to help scale up your company&apos;s revenue.
               </p>
               <div className="space-y-2 mb-6">
                 <div className="text-sm text-gray-400">• LeadGenBot (Lead)</div>
@@ -749,35 +749,7 @@ export default function Home() {
                       <p className="text-green-400 font-medium">Our Budget-Friendly Automation Starter Service</p>
                     </div>
                   </div>
-                 {/* Add this button group before the package display */}
-<div className="flex justify-center mb-12">
-  <div className="bg-gray-800 rounded-2xl p-2 border border-gray-700">
-    <button
-      onClick={() => setActivePackage('Basic')}
-      className={`px-6 py-3 rounded-xl font-medium transition-all ${
-        activePackage === 'Basic' ? 'bg-green-500 text-black' : 'text-gray-300 hover:text-green-400'
-      }`}
-    >
-      Basic
-    </button>
-    <button
-      onClick={() => setActivePackage('Accelerator')}
-      className={`px-6 py-3 rounded-xl font-medium transition-all ${
-        activePackage === 'Accelerator' ? 'bg-purple-500 text-white' : 'text-gray-300 hover:text-purple-400'
-      }`}
-    >
-      Accelerator
-    </button>
-    <button
-      onClick={() => setActivePackage('executive')}
-      className={`px-6 py-3 rounded-xl font-medium transition-all ${
-        activePackage === 'executive' ? 'bg-cyan-500 text-black' : 'text-gray-300 hover:text-cyan-400'
-      }`}
-    >
-      Executive
-    </button>
-  </div>
-</div> 
+                  
                   <div className="space-y-6">
                     <div>
                       <h4 className="text-lg font-semibold text-white mb-3">Package Includes:</h4>
@@ -790,7 +762,7 @@ export default function Home() {
                       <p className="text-gray-300 leading-relaxed">
                         And when you decide you wish to scale your business faster with an upgraded
                         automation package, you only pay the difference between your current package
-                        and the new plan you've chosen! 
+                        and the new plan you&apos;ve chosen! 
                       </p>
                     </div>
                     
@@ -808,12 +780,12 @@ export default function Home() {
                       <h4 className="text-lg font-semibold text-white mb-3">Benefit Analysis</h4>
                       <div className="grid grid-cols-2 gap-4">
                         <div className="bg-gray-800/50 rounded-lg p-4">
-                          <div className="text-2xl font-bold text-green-400">Pro's</div>
+                          <div className="text-2xl font-bold text-green-400">Pro&apos;s</div>
                           <div className="text-gray-400 text-sm">An introduction to accessing enterprise level automation tools with a small investment cost</div>
                         </div>
                         <div className="bg-gray-800/50 rounded-lg p-4">
-                          <div className="text-2xl font-bold text-green-400">Con's</div>
-                          <div className="text-gray-400 text-sm">Slower ROI and Business Scaling | Bots learn slower since they're only interconnected within the same workspace </div>
+                          <div className="text-2xl font-bold text-green-400">Con&apos;s</div>
+                          <div className="text-gray-400 text-sm">Slower ROI and Business Scaling | Bots learn slower since they&apos;re only interconnected within the same workspace </div>
                         </div>
                       </div>
                     </div>
@@ -874,7 +846,7 @@ export default function Home() {
                        <p className="text-gray-300 leading-relaxed">
                         And when you decide you wish to scale your business faster with an Executive
                         automation package, you only pay the difference between your current package
-                        and the new plan you've chosen! 
+                        and the new plan you&apos;ve chosen! 
                       </p>
                     </div>
                     
@@ -892,11 +864,11 @@ export default function Home() {
                       <h4 className="text-lg font-semibold text-white mb-3">Benefit Analysis</h4>
                       <div className="grid grid-cols-2 gap-4">
                         <div className="bg-gray-800/50 rounded-lg p-4">
-                          <div className="text-2xl font-bold text-purple-400">Pro's</div>
+                          <div className="text-2xl font-bold text-purple-400">Pro&apos;s</div>
                           <div className="text-gray-400 text-sm">Faster Development, Improved Rate of ROI, Market Expansion, Increased Bot Learning Curve</div>
                         </div>
                         <div className="bg-gray-800/50 rounded-lg p-4">
-                          <div className="text-2xl font-bold text-purple-400">Con's</div>
+                          <div className="text-2xl font-bold text-purple-400">Con&apos;s</div>
                           <div className="text-gray-400 text-sm">Does Not Claim Full Benefits of Early AI Adoption, Does Not Support Balanced Growth</div>
                         </div>
                       </div>
@@ -951,7 +923,7 @@ export default function Home() {
                       <h4 className="text-lg font-semibold text-white mb-3">Package Includes:</h4>
                       <p className="text-gray-300 leading-relaxed">
                         All of our Adaptive Agentic AI ecosystems are included and receive all of the Executive
-                        level bots within that module, all trained and fitted for your company's needs. 
+                        level bots within that module, all trained and fitted for your company&apos;s needs. 
                         We provide ongoing tech support, on demand full systems training for your employees, 
                         system optimization features and free integration of any new Executive level bots that we release.
                       </p>
@@ -977,11 +949,11 @@ export default function Home() {
                       <h4 className="text-lg font-semibold text-white mb-3">Benefit Analysis</h4>
                       <div className="grid grid-cols-2 gap-4">
                         <div className="bg-gray-800/50 rounded-lg p-4">
-                          <div className="text-2xl font-bold text-cyan-400">Pro's</div>
+                          <div className="text-2xl font-bold text-cyan-400">Pro&apos;s</div>
                           <div className="text-gray-400 text-sm">Early AI Adoption Benefits, Full Integration for SEO/AEO, Comprehensive Best Practice Strategies</div>
                         </div>
                         <div className="bg-gray-800/50 rounded-lg p-4">
-                          <div className="text-2xl font-bold text-cyan-400">Con's</div>
+                          <div className="text-2xl font-bold text-cyan-400">Con&apos;s</div>
                           <div className="text-gray-400 text-sm">Highest Initial Investment, Company-Wide Training Is Imperative</div>
                         </div>
                       </div>
