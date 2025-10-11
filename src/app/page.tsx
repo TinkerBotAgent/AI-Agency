@@ -599,4 +599,445 @@ export default function Home() {
                 <div className="text-sm text-gray-400">• SysAuditBot</div>
                 <div className="text-sm text-gray-400">• TaxSpecialistBot</div>
               </div>
-              <button className="w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-
+              <button className="w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-black py-3 rounded-xl font-bold transition-all duration-200">
+                Hire Team - Starting at $1,500/mo*
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Proof Section */}
+      <div id="proof" className="py-24 bg-black">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-20">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+              Our Confidence In Our Ecosystems Is Proven: 
+              We Rely On Our Adaptive Agentic AI Tools 
+            </h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto font-light">
+              TinkerBot Agency uses the exact same systems we provide for our clients!
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-3xl p-12 border border-gray-700">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h3 className="text-3xl font-bold text-white mb-6">
+                  Increased Productivity and Accuracy Help Us Run More Efficiently
+                </h3>
+                <p className="text-lg text-gray-300 mb-8 leading-relaxed">
+                  Our entire company operates through our <span className="text-green-400 font-semibold">Adaptive Agentic AI</span> ecosystem. 
+                  Customer support, project management, security monitoring, analytics, and internal communications 
+                  are all handled by intelligent agents that learn and adapt to our needs. Our live team members report
+                  high levels of job satisfaction since they have on demand smart support, retain the more engaging parts
+                  of their workloads and experience a significant reduction in errors and customer service issues.
+                </p>
+                <div className="space-y-4">
+                  <div className="flex items-center">
+                    <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-4">
+                      <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <span className="text-gray-300 font-medium">24/7 Automated Operations</span>
+                  </div>
+                  <div className="flex items-center">
+                    <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-4">
+                      <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <span className="text-gray-300 font-medium">AI-Powered Customer Support</span>
+                  </div>
+                  <div className="flex items-center">
+                    <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-4">
+                      <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <span className="text-gray-300 font-medium">Automated Project Management</span>
+                  </div>
+                  <div className="flex items-center">
+                    <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-4">
+                      <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <span className="text-gray-300 font-medium">Real-Time Performance Analytics</span>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-gray-800/50 rounded-2xl p-8 border border-gray-600">
+                <h4 className="text-xl font-bold text-white mb-6">Live Agency Operations</h4>
+                <div className="space-y-4">
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-300">SilentSentry Security</span>
+                    <span className="flex items-center text-green-400">
+                      <div className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></div>
+                      Active
+                    </span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-300">TinkerBot Development</span>
+                    <span className="flex items-center text-purple-400">
+                      <div className="w-2 h-2 bg-purple-400 rounded-full mr-2 animate-pulse"></div>
+                      Active
+                    </span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-300">Analytics Pro</span>
+                    <span className="flex items-center text-cyan-400">
+                      <div className="w-2 h-2 bg-cyan-400 rounded-full mr-2 animate-pulse"></div>
+                      Active
+                    </span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-300">Customer Support</span>
+                    <span className="flex items-center text-green-400">
+                      <div className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></div>
+                      Active
+                    </span>
+                  </div>
+                </div>
+                <div className="mt-6 p-4 bg-green-500/10 border border-green-500/30 rounded-lg">
+                  <p className="text-green-400 text-sm font-medium">
+                    All systems operational • Zero downtime • 100% Adaptive Agentic AI-powered
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* CTA Section */}
+      <div className="py-24 bg-gradient-to-r from-green-500/10 to-purple-500/10 border-t border-green-500/20">
+        <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            Ready to Deploy Adaptive Agentic AI?
+          </h2>
+          <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto font-light">
+            Join forward-thinking companies who trust TinkerBot Agency for intelligent, adaptive AI solutions.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <button className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-black px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-300 shadow-xl hover:shadow-green-500/25 transform hover:scale-105 hover:-translate-y-1">
+              Browse All Agents
+            </button>
+            <button className="border-2 border-purple-500 text-purple-400 px-8 py-4 rounded-2xl font-semibold text-lg hover:bg-purple-500 hover:text-white transition-all duration-300 transform hover:scale-105 hover:-translate-y-1">
+              Schedule Consultation
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Packages */}
+      <div id="packages" className="py-24 bg-gray-900/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-gray-800/50 backdrop-blur-sm rounded-3xl p-8 border border-gray-700 transition-all duration-500 hover:border-green-500/50 hover:shadow-2xl hover:shadow-green-500/10">
+            {activePackage === 'Basic' && (
+              <div className="grid lg:grid-cols-2 gap-12">
+                <div>
+                  <div className="flex items-center mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mr-4">
+                      <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="text-3xl font-bold text-white">Basic Package</h3>
+                      <p className="text-green-400 font-medium">Our Budget-Friendly Automation Starter Service</p>
+                    </div>
+                  </div>
+                 {/* Add this button group before the package display */}
+<div className="flex justify-center mb-12">
+  <div className="bg-gray-800 rounded-2xl p-2 border border-gray-700">
+    <button
+      onClick={() => setActivePackage('Basic')}
+      className={`px-6 py-3 rounded-xl font-medium transition-all ${
+        activePackage === 'Basic' ? 'bg-green-500 text-black' : 'text-gray-300 hover:text-green-400'
+      }`}
+    >
+      Basic
+    </button>
+    <button
+      onClick={() => setActivePackage('Accelerator')}
+      className={`px-6 py-3 rounded-xl font-medium transition-all ${
+        activePackage === 'Accelerator' ? 'bg-purple-500 text-white' : 'text-gray-300 hover:text-purple-400'
+      }`}
+    >
+      Accelerator
+    </button>
+    <button
+      onClick={() => setActivePackage('executive')}
+      className={`px-6 py-3 rounded-xl font-medium transition-all ${
+        activePackage === 'executive' ? 'bg-cyan-500 text-black' : 'text-gray-300 hover:text-cyan-400'
+      }`}
+    >
+      Executive
+    </button>
+  </div>
+</div> 
+                  <div className="space-y-6">
+                    <div>
+                      <h4 className="text-lg font-semibold text-white mb-3">Package Includes:</h4>
+                      <p className="text-gray-300 leading-relaxed">
+                        Choose one ecosystem from our list and receive all of the basic level bots
+                        within that module. We provide ongoing tech support, on demand full systems
+                        training for your employees, system optimization features and free integration
+                        of any new basic level bots that we release.
+                      </p>
+                      <p className="text-gray-300 leading-relaxed">
+                        And when you decide you wish to scale your business faster with an upgraded
+                        automation package, you only pay the difference between your current package
+                        and the new plan you've chosen! 
+                      </p>
+                    </div>
+                    
+                    <div>
+                      <h4 className="text-lg font-semibold text-white mb-3">Best Plan For:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">New To Automation</span>
+                        <span className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">Limited Investment Capital</span>
+                        <span className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">Slow Business Expansion Goals</span>
+                        <span className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">Startup Companies</span>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <h4 className="text-lg font-semibold text-white mb-3">Benefit Analysis</h4>
+                      <div className="grid grid-cols-2 gap-4">
+                        <div className="bg-gray-800/50 rounded-lg p-4">
+                          <div className="text-2xl font-bold text-green-400">Pro's</div>
+                          <div className="text-gray-400 text-sm">An introduction to accessing enterprise level automation tools with a small investment cost</div>
+                        </div>
+                        <div className="bg-gray-800/50 rounded-lg p-4">
+                          <div className="text-2xl font-bold text-green-400">Con's</div>
+                          <div className="text-gray-400 text-sm">Slower ROI and Business Scaling | Bots learn slower since they're only interconnected within the same workspace </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="bg-gray-800/30 rounded-2xl p-6 border border-gray-600 hover:border-green-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-green-500/10">
+                  <h4 className="text-xl font-semibold text-white mb-4">Choose This Package</h4>
+                  <div className="space-y-4">
+                    <div className="flex justify-between">
+                      <span className="text-gray-300">Availability</span>
+                      <span className="text-green-400 font-medium">Immediate</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-300">Integration Time</span>
+                      <span className="text-green-400 font-medium">24-48 hours</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-300">Setup Fee</span>
+                      <span className="text-green-400 font-medium">$3500</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-300">Monthly Rate</span>
+                      <span className="text-green-400 font-medium">$1500</span>
+                    </div>
+                    <button className="w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-black py-3 rounded-xl font-bold transition-all duration-300 transform hover:scale-105 hover:-translate-y-1">
+                      Click To Schedule Onboarding
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {activePackage === 'Accelerator' && (
+              <div className="grid lg:grid-cols-2 gap-12">
+                <div>
+                  <div className="flex items-center mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mr-4">
+                      <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="text-3xl font-bold text-white">Accelerator Package</h3>
+                      <p className="text-purple-400 font-medium">Kickstarts Growth Through Expanded Ecosystems and Interconnectivity</p>
+                    </div>
+                  </div>
+                  
+                  <div className="space-y-6">
+                    <div>
+                      <h4 className="text-lg font-semibold text-white mb-3">Package Includes:</h4>
+                      <p className="text-gray-300 leading-relaxed">
+                        Choose four ecosystems from our list and receive all of the advanced level bots
+                        within that module, PLUS a bonus of one Executive Level Bot of your choice. 
+                        We provide ongoing tech support, on demand full systems training for your employees, 
+                        system optimization features and free integration of any new basic level bots that we release.
+                      </p>
+                       <p className="text-gray-300 leading-relaxed">
+                        And when you decide you wish to scale your business faster with an Executive
+                        automation package, you only pay the difference between your current package
+                        and the new plan you've chosen! 
+                      </p>
+                    </div>
+                    
+                    <div>
+                      <h4 className="text-lg font-semibold text-white mb-3">Best Plan For:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="px-3 py-1 bg-purple-500/20 text-purple-400 rounded-full text-sm">Established Companies</span>
+                        <span className="px-3 py-1 bg-purple-500/20 text-purple-400 rounded-full text-sm">Accelerated Growth</span>
+                        <span className="px-3 py-1 bg-purple-500/20 text-purple-400 rounded-full text-sm">Basic to Intermediate Automation</span>
+                        <span className="px-3 py-1 bg-purple-500/20 text-purple-400 rounded-full text-sm">Basic Early Adoption Benefits</span>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <h4 className="text-lg font-semibold text-white mb-3">Benefit Analysis</h4>
+                      <div className="grid grid-cols-2 gap-4">
+                        <div className="bg-gray-800/50 rounded-lg p-4">
+                          <div className="text-2xl font-bold text-purple-400">Pro's</div>
+                          <div className="text-gray-400 text-sm">Faster Development, Improved Rate of ROI, Market Expansion, Increased Bot Learning Curve</div>
+                        </div>
+                        <div className="bg-gray-800/50 rounded-lg p-4">
+                          <div className="text-2xl font-bold text-purple-400">Con's</div>
+                          <div className="text-gray-400 text-sm">Does Not Claim Full Benefits of Early AI Adoption, Does Not Support Balanced Growth</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="bg-gray-800/30 rounded-2xl p-6 border border-gray-600">
+                  <h4 className="text-xl font-semibold text-white mb-4">Choose This Package:</h4>
+                  <div className="space-y-4">
+                    <div className="flex justify-between">
+                      <span className="text-gray-300">Availability</span>
+                      <span className="text-purple-400 font-medium">Immediate</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-300">Integration Time</span>
+                      <span className="text-purple-400 font-medium">12-24 hours</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-300">Setup Fee</span>
+                      <span className="text-purple-400 font-medium">$7000</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-300">Monthly Rate</span>
+                      <span className="text-purple-400 font-medium">$3000</span>
+                    </div>
+                    <button className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white py-3 rounded-xl font-bold transition-all duration-200">
+                      Click To Schedule Onboarding
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {activePackage === 'executive' && (
+              <div className="grid lg:grid-cols-2 gap-12">
+                <div>
+                  <div className="flex items-center mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl flex items-center justify-center mr-4">
+                      <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="text-3xl font-bold text-white">Executive Package</h3>
+                      <p className="text-cyan-400 font-medium">Dominate Your Competitors With Early Adoption Of Top Tier Tools</p>
+                    </div>
+                  </div>
+                  
+                  <div className="space-y-6">
+                    <div>
+                      <h4 className="text-lg font-semibold text-white mb-3">Package Includes:</h4>
+                      <p className="text-gray-300 leading-relaxed">
+                        All of our Adaptive Agentic AI ecosystems are included and receive all of the Executive
+                        level bots within that module, all trained and fitted for your company's needs. 
+                        We provide ongoing tech support, on demand full systems training for your employees, 
+                        system optimization features and free integration of any new Executive level bots that we release.
+                      </p>
+                      <p className="text-gray-300 leading-relaxed">
+                        Additionally, you will be given the opportunity to try out any Beta ecosystems in the future
+                        without any obligation to purchase new ecosystems. If you do enjoy using new tools before we
+                        make them widely available or having your evaluations help shape future offerings, then the
+                        Executive Suite of Ecosystems is definitely for you!
+                      </p>
+                    </div>
+                    
+                    <div>
+                      <h4 className="text-lg font-semibold text-white mb-3">Best Plan For:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">Future Focused Companies</span>
+                        <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">Top Level ROI</span>
+                        <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">Rapid Market Expansion</span>
+                        <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">Companies Positioned to be Top Competitors</span>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <h4 className="text-lg font-semibold text-white mb-3">Benefit Analysis</h4>
+                      <div className="grid grid-cols-2 gap-4">
+                        <div className="bg-gray-800/50 rounded-lg p-4">
+                          <div className="text-2xl font-bold text-cyan-400">Pro's</div>
+                          <div className="text-gray-400 text-sm">Early AI Adoption Benefits, Full Integration for SEO/AEO, Comprehensive Best Practice Strategies</div>
+                        </div>
+                        <div className="bg-gray-800/50 rounded-lg p-4">
+                          <div className="text-2xl font-bold text-cyan-400">Con's</div>
+                          <div className="text-gray-400 text-sm">Highest Initial Investment, Company-Wide Training Is Imperative</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="bg-gray-800/30 rounded-2xl p-6 border border-gray-600">
+                  <h4 className="text-xl font-semibold text-white mb-4">Choose This Package:</h4>
+                  <div className="space-y-4">
+                    <div className="flex justify-between">
+                      <span className="text-gray-300">Availability</span>
+                      <span className="text-cyan-400 font-medium">Immediate</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-300">Integration Time</span>
+                      <span className="text-cyan-400 font-medium">48-72 hours</span>
+                    </div>
+                   <div className="flex justify-between">
+                      <span className="text-gray-300">Setup Fee</span>
+                      <span className="text-cyan-400 font-medium">$15,000</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-300">Monthly Rate</span>
+                      <span className="text-cyan-400 font-medium">$6,500</span>
+                    </div>
+                    <button className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white py-3 rounded-xl font-bold transition-all duration-200">
+                      Click To Schedule Onboarding
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <div className="text-3xl font-bold bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent mb-6">
+              TinkerBot Agency
+            </div>
+            <p className="text-gray-400 mb-8 text-lg">
+              Pioneering Adaptive Agentic AI - intelligent agents that learn, adapt, and collaborate.
+            </p>
+            <div className="flex justify-center space-x-8">
+              <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">Privacy</a>
+              <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">Terms</a>
+              <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">Support</a>
+              <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">Contact</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
