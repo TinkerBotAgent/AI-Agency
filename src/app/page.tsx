@@ -89,6 +89,112 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <div className="text-3xl font-bold bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent mb-6">
+              TinkerBot Agency
+            </div>
+            <p className="text-gray-400 mb-8 text-lg">
+              Pioneering Adaptive Agentic AI - intelligent agents that learn, adapt, and collaborate.
+            </p>
+            <div className="flex justify-center space-x-8">
+              <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">Privacy</a>
+              <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">Terms</a>
+              <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">Support</a>
+              <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">Contact</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}ePackage, setActivePackage] = useState('Basic');
+
+  return (
+    <div className="min-h-screen bg-black text-white">
+      {/* Navigation */}
+      <nav className="sticky top-0 z-50 bg-black/95 backdrop-blur-xl border-b border-green-500/20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16">
+            <div className="flex items-center">
+              <div className="flex-shrink-0">
+                <div className="text-2xl font-bold bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
+                  TinkerBot Agency
+                </div>
+              </div>
+            </div>
+            <div className="hidden md:block">
+              <div className="ml-10 flex items-baseline space-x-8">
+                <a href="#agents" className="text-gray-300 hover:text-green-400 px-3 py-2 text-sm font-medium transition-colors">AI Agents</a>
+                <a href="#ecosystem" className="text-gray-300 hover:text-green-400 px-3 py-2 text-sm font-medium transition-colors">Ecosystems</a>
+                <a href="#proof" className="text-gray-300 hover:text-green-400 px-3 py-2 text-sm font-medium transition-colors">Case Studies</a>
+                <a href="#packages" className="text-gray-300 hover:text-green-400 px-3 py-2 text-sm font-medium transition-colors">Get Started</a>
+                <a href="#contact" className="text-gray-300 hover:text-green-400 px-3 py-2 text-sm font-medium transition-colors">Contact</a>
+                <button className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-black px-6 py-2 rounded-full text-sm font-bold transition-all duration-200 shadow-lg hover:shadow-green-500/25">
+                  Hire Agents
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      {/* Hero Section */}
+      <div className="relative overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cg%20fill%3D%22%2300FF88%22%20fill-opacity%3D%220.1%22%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2230%22%20r%3D%222%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-40 animate-pulse"></div>
+        
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
+          <div className="text-center">
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-green-500/10 border border-green-500/30 text-green-400 text-sm font-medium mb-8">
+              <span className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
+              Adaptive Agentic AI - Beyond Traditional Automation
+            </div>
+            
+            <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight">
+              <span className="bg-gradient-to-r from-green-400 via-emerald-400 to-cyan-400 bg-clip-text text-transparent">
+                Hire Your AI Workforce
+              </span>
+              <br />
+              <span className="text-white">From Our Elite</span>
+              <br />
+              <span className="text-white">Agent Pool</span>
+            </h1>
+            
+            <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed font-light">
+              TinkerBot Agency pioneers <span className="text-green-400 font-semibold">Adaptive Agentic AI</span> - intelligent agents that learn, 
+              adapt, and collaborate like a real workforce. Beyond simple automation, our agents evolve with your business.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+              <button className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-black px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-300 shadow-xl hover:shadow-green-500/25 transform hover:scale-105 hover:-translate-y-1">
+                Browse Agents
+              </button>
+              <button className="border-2 border-purple-500 hover:border-purple-400 text-purple-400 hover:text-purple-300 px-8 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 bg-purple-500/10 hover:bg-purple-500/20 transform hover:scale-105 hover:-translate-y-1">
+                View Case Studies
+              </button>
+            </div>
+
+            {/* Agency Stats */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+              <div className="text-center group cursor-pointer">
+                <div className="text-4xl font-bold text-green-400 mb-2 group-hover:scale-110 transition-transform duration-300">50+</div>
+                <div className="text-gray-400 font-medium group-hover:text-green-300 transition-colors duration-300">Specialized Agents</div>
+              </div>
+              <div className="text-center group cursor-pointer">
+                <div className="text-4xl font-bold text-purple-400 mb-2 group-hover:scale-110 transition-transform duration-300">200+</div>
+                <div className="text-gray-400 font-medium group-hover:text-purple-300 transition-colors duration-300">Successful Placements</div>
+              </div>
+              <div className="text-center group cursor-pointer">
+                <div className="text-4xl font-bold text-cyan-400 mb-2 group-hover:scale-110 transition-transform duration-300">99%</div>
+                <div className="text-gray-400 font-medium group-hover:text-cyan-300 transition-colors duration-300">Client Satisfaction</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Agent Showcase */}
       <div id="agents" className="py-24 bg-gray-900/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
