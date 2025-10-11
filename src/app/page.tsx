@@ -801,12 +801,12 @@ export default function Home() {
                       <span className="text-green-400 font-medium">24-48 hours</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-300">Setup Fee>
-                      <span className="text-green-400 font-medium">$3500>
+                      <span className="text-gray-300">Setup Fee</span>
+                      <span className="text-green-400 font-medium">$3500</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-300">Monthly Rate>
-                      <span className="text-green-400 font-medium">$1500>
+                      <span className="text-gray-300">Monthly Rate</span>
+                      <span className="text-green-400 font-medium">$1500</span>
                     </div>
                     <button className="w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-black py-3 rounded-xl font-bold transition-all duration-300 transform hover:scale-105 hover:-translate-y-1">
                       Click To Schedule Onboarding
@@ -924,7 +924,7 @@ export default function Home() {
                         We provide ongoing tech support, on demand full systems training for your employees, 
                         system optimization features and free integration of any new Executive level bots that we release.
                       </p>
-                      <p>
+                      <p className="text-gray-300 leading-relaxed">
                         Additionally, you will be given the opportunity to try out any Beta ecosystems in the future
                         without any obligation to purchase new ecosystems. If you do enjoy using new tools before we
                         make them widely available or having your evaluations help shape future offerings, then the
@@ -967,7 +967,7 @@ export default function Home() {
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-300">Integration Time</span>
-                      <span className="text-cyan-400 font-medium"48-72 hours</span>
+                      <span className="text-cyan-400 font-medium">48-72 hours</span>
                     </div>
                    <div className="flex justify-between">
                       <span className="text-gray-300">Setup Fee</span>
