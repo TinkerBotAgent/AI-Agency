@@ -158,9 +158,9 @@ export default function Home() {
                     <div>
                       <h4 className="text-lg font-semibold text-white mb-3">Agent Resume</h4>
                       <p className="text-gray-300 leading-relaxed">
-                        "I am SilentSentry, a specialized security agent with expertise in threat detection, 
+                        &quot;I am SilentSentry, a specialized security agent with expertise in threat detection, 
                         automated response, and system recovery. I excel at monitoring AI ecosystems, 
-                        identifying potential attacks, and implementing protective measures."
+                        identifying potential attacks, and implementing protective measures.&quot;
                       </p>
                     </div>
                     
@@ -456,7 +456,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-white">Sales & Marketing Team</h3>
               <p className="text-gray-300 leading-relaxed text-lg mb-6">
-                Cutting edge marketing team and sales support to help scale up your company's revenue.
+                Cutting edge marketing team and sales support to help scale up your revenue.
               </p>
               <div className="space-y-2 mb-6">
                 <div className="text-sm text-gray-400">• LeadGenBot (Lead)</div>
