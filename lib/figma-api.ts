@@ -1,4 +1,6 @@
 // Figma API Integration for BluePrinter
+
+// Describes the structure of a single node in a Figma file
 export interface FigmaNode {
   id: string;
   name: string;
@@ -25,10 +27,19 @@ export interface FigmaNode {
   children?: FigmaNode[];
 }
 
+// Describes the structure of a style object from the Figma API
+export interface FigmaStyle {
+  key: string;
+  name: string;
+  style_type: 'FILL' | 'TEXT' | 'EFFECT' | 'GRID';
+  description: string;
+}
+
+// Describes the overall structure of a Figma file response
 export interface FigmaFile {
   document: FigmaNode;
   components: Record<string, FigmaNode>;
-  styles: Record<string, any>;
+  styles: Record<string, FigmaStyle>; // FIXED: Replaced 'any' with the specific 'FigmaStyle' interface
 }
 
 export class FigmaAPI {
