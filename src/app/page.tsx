@@ -734,6 +734,37 @@ export default function Home() {
       {/* Packages */}
       <div id="packages" className="py-24 bg-gray-900/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          {/* === NEW: PACKAGE BUTTONS ADDED HERE === */}
+          <div className="flex justify-center mb-12">
+            <div className="bg-gray-800 rounded-2xl p-2 border border-gray-700">
+              <button
+                onClick={() => setActivePackage('Basic')}
+                className={`px-6 py-3 rounded-xl font-medium transition-all ${
+                  activePackage === 'Basic' ? 'bg-green-500 text-black' : 'text-gray-300 hover:text-green-400'
+                }`}
+              >
+                Basic
+              </button>
+              <button
+                onClick={() => setActivePackage('Accelerator')}
+                className={`px-6 py-3 rounded-xl font-medium transition-all ${
+                  activePackage === 'Accelerator' ? 'bg-purple-500 text-white' : 'text-gray-300 hover:text-purple-400'
+                }`}
+              >
+                Accelerator
+              </button>
+              <button
+                onClick={() => setActivePackage('executive')}
+                className={`px-6 py-3 rounded-xl font-medium transition-all ${
+                  activePackage === 'executive' ? 'bg-cyan-500 text-black' : 'text-gray-300 hover:text-cyan-400'
+                }`}
+              >
+                Executive
+              </button>
+            </div>
+          </div>
+          
           <div className="bg-gray-800/50 backdrop-blur-sm rounded-3xl p-8 border border-gray-700 transition-all duration-500 hover:border-green-500/50 hover:shadow-2xl hover:shadow-green-500/10">
             {activePackage === 'Basic' && (
               <div className="grid lg:grid-cols-2 gap-12">
